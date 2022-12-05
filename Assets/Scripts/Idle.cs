@@ -21,7 +21,7 @@ public class Idle : IState
         Debug.Log("Estoy en Idle");
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _fsm.ChangeState(AgentStates.Patrol);
+            _fsm.ChangeState(NpcStates.Patrol);
         }
     }
 

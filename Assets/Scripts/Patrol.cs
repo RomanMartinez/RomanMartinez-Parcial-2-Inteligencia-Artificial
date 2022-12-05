@@ -27,7 +27,7 @@ public class Patrol : IState
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _fsm.ChangeState(AgentStates.Idle);
+            _fsm.ChangeState(NpcStates.Idle);
         }
 
         PatrolState();

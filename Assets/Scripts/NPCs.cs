@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum AgentStates
+public enum NpcStates
 {
     Idle,
     Patrol
@@ -20,9 +20,9 @@ public class NPCs : MonoBehaviour
         _FSM = new FSMachine();
         var idle = new Idle(_FSM);
 
-        _FSM.AddState(AgentStates.Idle, idle);
-        _FSM.AddState(AgentStates.Patrol, new Patrol(_FSM, this));
-        _FSM.ChangeState(AgentStates.Idle);
+        _FSM.AddState(NpcStates.Idle, idle);
+        _FSM.AddState(NpcStates.Patrol, new Patrol(_FSM, this));
+        _FSM.ChangeState(NpcStates.Idle);
 
         ChangeColor(Color.gray);
     }
