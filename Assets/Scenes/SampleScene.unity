@@ -2221,11 +2221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allWaypoints:
-  - {fileID: 1760262363}
   - {fileID: 1339544127}
   - {fileID: 91559584}
   - {fileID: 386151122}
-  speed: 5
+  - {fileID: 1760262363}
+  speed: 10
 --- !u!4 &5598741145094944565
 Transform:
   m_ObjectHideFlags: 0
@@ -2234,7 +2234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5598741145094944521}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.76, y: -4.449997, z: 12.05}
+  m_LocalPosition: {x: 4.7, y: -4.449997, z: 24.07}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 5598741145165426316}
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   - {fileID: 2132964613}
   - {fileID: 1760262363}
   - {fileID: 386151122}
-  speed: 5
+  speed: 10
 --- !u!33 &6033112075919460681
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2658,7 +2658,7 @@ MonoBehaviour:
   allWaypoints:
   - {fileID: 1616157758}
   - {fileID: 817996083}
-  speed: 5
+  speed: 10
 --- !u!33 &6929908741273267726
 MeshFilter:
   m_ObjectHideFlags: 0
